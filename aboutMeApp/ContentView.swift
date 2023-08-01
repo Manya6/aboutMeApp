@@ -6,16 +6,41 @@
 //
 
 import SwiftUI
+//comment
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        NavigationStack {
+        ZStack {
+            Color(red:0.7, green:0.6, blue:0.9)
+                .ignoresSafeArea()
+            Image("aesth")
+            VStack {
+                Text("Hi! My Name is")
+                    .font(.title)
+                    .fontWeight(.semibold)
+                    .padding(.top, 110.0)
+                Text("Manya💖 \n")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .padding(.bottom, -21.0)
+                NavigationLink(destination: Text("About Me")) {
+//                    Button("About Me"){
+//                    }
+//                    .padding(.top, 50.0)
+//                    .font(.title3)
+//                    .buttonStyle(.borderedProminent)
+//                    .tint(.white)
+//                    .foregroundColor(.black)
+                }
+            }
+                
+            }
+            NavigationLink(destination: SecondView()) {
+                Text("about me")
+            }
         }
-        .padding()
     }
 }
 

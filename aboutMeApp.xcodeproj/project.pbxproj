@@ -11,6 +11,7 @@
 		BD1723C12A729B8E0020BBD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1723C02A729B8D0020BBD5 /* ContentView.swift */; };
 		BD1723C32A729B8E0020BBD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1723C22A729B8E0020BBD5 /* Assets.xcassets */; };
 		BD1723C62A729B8E0020BBD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1723C52A729B8E0020BBD5 /* Preview Assets.xcassets */; };
+		BDCCFEB12A73BE4300F54720 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCCFEB02A73BE4300F54720 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BD1723C02A729B8D0020BBD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD1723C22A729B8E0020BBD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD1723C52A729B8E0020BBD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDCCFEB02A73BE4300F54720 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				BD1723BE2A729B8D0020BBD5 /* aboutMeAppApp.swift */,
 				BD1723C02A729B8D0020BBD5 /* ContentView.swift */,
+				BDCCFEB02A73BE4300F54720 /* SecondView.swift */,
 				BD1723C22A729B8E0020BBD5 /* Assets.xcassets */,
 				BD1723C42A729B8E0020BBD5 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDCCFEB12A73BE4300F54720 /* SecondView.swift in Sources */,
 				BD1723C12A729B8E0020BBD5 /* ContentView.swift in Sources */,
 				BD1723BF2A729B8D0020BBD5 /* aboutMeAppApp.swift in Sources */,
 			);
